@@ -15,7 +15,7 @@
         }
 
 
-        var mzt = 'xxx';
+        var mzt = '';
         var dateTime = '';
         var array = getJkm();
         if (array.length > 0) {
@@ -40,7 +40,7 @@
         }
         if (mzt == '') {
             colour = "1E90FF";
-            $("#hzjkm").append('<div class="hz" style="color: #006bc7">健康码获取失败（请打开支付宝出示）</div>');
+            // $("#hzjkm").append('<div class="hz" style="color: #006bc7">健康码获取失败（请打开支付宝出示）</div>');
         }
         if (mzt == '' && flag == 'Invalid') {
             colour = "CCCCCC";
