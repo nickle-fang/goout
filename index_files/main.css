@@ -42,7 +42,7 @@ html, body {
 }
 
 .blue-bg {
-    background: url(../images/blue-bg.png) no-repeat left top;
+    background: url(./blue-bg.png) no-repeat left top;
     background-size: 100% auto;
 }
 
